@@ -1,0 +1,21 @@
+.dialog {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+
+    &__shadow {
+        background: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        height: 100vh;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+    }
+}

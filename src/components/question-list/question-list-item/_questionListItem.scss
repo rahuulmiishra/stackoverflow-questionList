@@ -1,0 +1,19 @@
+.question-list-item {
+  align-items: center;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: all 0.2s ease-in;
+
+  div {
+    padding: 0 8px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 10px -15px #111;
+  }
+}
